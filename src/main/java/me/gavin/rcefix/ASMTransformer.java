@@ -12,23 +12,6 @@ import java.util.HashMap;
 
 public class ASMTransformer implements IClassTransformer {
 
-    private static final HashMap<Integer, String> opcodes = new HashMap<>();
-
-    static {
-        for (Field f : Opcodes.class.getDeclaredFields()) {
-            if (!f.isAccessible())
-                f.setAccessible(true);
-
-            if (f.getType() == int.class) {
-                try {
-                    opcodes.put((int) f.get(null), f.getName());
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
     public static boolean isObfuscated = false;
 
     private boolean matches(MethodNode methodNode) {
