@@ -1,3 +1,8 @@
+# !! Patched by mojang !!
+you dont need this anymore, it was patched by mojang
+
+(https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition)
+
 # RceFix
 Fixes the Log4j RCE exploit
 
