@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "rcefix",
+        "name": "RCEFix",
+        "description": "Patches the log4j rce minecraft chat vulnerability",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["Gav06"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
