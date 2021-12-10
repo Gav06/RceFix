@@ -10,6 +10,7 @@ import org.objectweb.asm.tree.MethodNode;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 
+// Pure autism
 public class ASMTransformer implements IClassTransformer {
 
     public static boolean isObfuscated = false;
