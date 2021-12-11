@@ -1,8 +1,14 @@
-# !! Patched by mojang !!
-this was patched in vanilla by mojang, but it still likely works on modified clients
-(like forge) so you still might want to use this OR update your forge install
+# PATCHED
 
-(https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition)
+This was patched by mojang and forge.
+
+Download the LATEST version of forge for a fix.
+
+Latest forge:
+https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html
+
+Mojang article:
+https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition
 
 # RceFix
 Fixes the Log4j RCE exploit
