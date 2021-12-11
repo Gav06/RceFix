@@ -1,6 +1,6 @@
 # !! Patched by mojang !!
 this was patched in vanilla by mojang, but it still likely works on modified clients
-(like forge) so you still might want to use this
+(like forge) so you still might want to use this OR update your forge install
 
 (https://www.minecraft.net/en-us/article/important-message--security-vulnerability-java-edition)
 
